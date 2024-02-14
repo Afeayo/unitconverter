@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h3>Convertify Unit Converter</h3>
+        <div class="cir">
+            <div class="cir1"></div>
+            <div class="cir2"></div>
+        </div>
+        <div class="container">
+            <h1 id="Dispay">0</h1>
+            <h3 id="round"></h3>
+            <p id="showCon">Select a unit of conversion</p>
+            <input type="number" id="input">
+            <select name="select" id="unitOfConversion"> 
+                <option value="">Select the Unit of conversion</option>
+                <option value="ftcm" id="cmft">Foot to Centimeters</option>
+                <option value="cm" id="cmFt">Centimeters to Foot</option>
+                <option value="in" id="inFt">Inches to Foot</option>
+                <option value="ft" id="ftin">Foot to Inches</option>
+                <option value="ftm" id="ftM">foot to meter</option>
+                <option value="mk" id="mKm">meter to Kilometers</option>
+                <option value="cmk" id="cmKm">Centimeters to Kilometers</option>
+                <option value="kkm" id="kmCm">Kilometers to Centimeters</option>
+                <option value="km" id="kmM">Kilometers to meter</option>
+                <option value="inc" id="inCm">Inches to Centimeters</option>
+                <option value="inm" id="inM">inches to meter </option>
+                <option value="min" id="mIn">meter to Inches</option>
+                <option value="cmm" id="cmM">centimeter to meter
+            </select>
+            <button type="button" id="conBtn">Convert</button>
+        </div>
+    </div>
+    <script src="ap.js"></script>
+</body>
+</html>
